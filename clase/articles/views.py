@@ -16,7 +16,7 @@ class ArticlesDetailView(DetailView):
     model = Article
     context_object_name = "article"
     template_name = "articles/articles_detail.html"
-
+#HOLA 
 
 class ArticlesListViews(ListView):
     model = Article 
