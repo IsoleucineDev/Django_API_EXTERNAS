@@ -1,0 +1,14 @@
+{% block content %}
+    <h2>Articulos -w-</h2>
+    <ul>
+        {% for article in Article_list %}
+            <li>
+                <a href="{% url 'article_detail' article.pk %}">
+                    {{ article.title }}
+                </a>
+            </li>
+        {% empty %}
+            <li>No hay artículos todavía.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

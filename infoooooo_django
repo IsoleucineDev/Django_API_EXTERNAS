@@ -1,0 +1,12 @@
+CREATE DATABASE db_clase_django CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'ile'@'localhost' IDENTIFIED BY 'TY546456_34324mafu';
+GRANT ALL PRIVILEGES ON db_clase_django.* TO 'ile'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+
+CREATE DATABASE db_clase_django CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'ile'@'localhost' IDENTIFIED BY 'TY546456_34324mafu';
+GRANT ALL PRIVILEGES ON db_clase_django.* TO 'ile'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+

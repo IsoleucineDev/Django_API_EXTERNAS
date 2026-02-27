@@ -1,0 +1,15 @@
+<!-- aca lo que hago es envolver el tituto del articulo con la etiqueta-->
+<!-- que lleva a la url con el detail-->
+{% block content %}
+    <h2> Articles</h2>
+    <ul>
+
+        {% for article in Article_list %}
+            <li>
+                <a href="{% url 'articles_detail' article.pk %}">
+                    {{ article.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
